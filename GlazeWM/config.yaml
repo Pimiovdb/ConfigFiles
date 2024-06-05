@@ -184,12 +184,15 @@ workspaces:
   - name: "2"
     display_name: "Web"
     keep_alive: true
-    bind_to_monitor: 2
+    bind_to_monitor: 1
   - name: "3"
-    display_name: "Work"
+    display_name: "Web - Monitor"
     keep_alive: true
     bind_to_monitor: 2
   - name: "4"
+    display_name: "Work - Monitor"
+    keep_alive: true
+    bind_to_monitor: 2
   - name: "5"
   - name: "6"
   - name: "7"
