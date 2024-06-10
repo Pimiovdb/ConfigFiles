@@ -123,7 +123,8 @@ bars:
     widgets:
       left:   ["komorebi_workspaces", "komorebi_active_layout", "active_window"]
       center: ["clock"]
-      right:  ["explorer_button", "ip_info", "wifi", "cpu", "memory", "battery"]
+      right:  ["weather", "explorer_button", "ip_info", "wifi", "cpu", "memory", "battery"]
+
 # widgets:
   # my-clock-widget:
     # type: "yasb.clock.ClockWidget"
@@ -518,7 +519,7 @@ widgets:
       label_alt: "\uf0c2 {data[current_condition][0][weatherDesc][0][value]}"
       class_name: "weather-widget"
       exec_options:
-        run_cmd: "curl.exe  wttr.in/Vancouver?format=j1"
+        run_cmd: "curl.exe  wttr.in/Amsterdam?format=j1"
         # run every hour
         run_interval: 3600000
         return_format: "json"
