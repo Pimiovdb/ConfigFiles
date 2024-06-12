@@ -3,10 +3,10 @@
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
-  "default_workspace_padding": 5,
-  "default_container_padding": 5,
+  "default_workspace_padding": 0,
+  "default_container_padding": 1,
   "border": true,
-  "border_width": 8,
+  "border_width": 2,
   "border_offset": -1,
   "border_colours": {
     "single": "#42a5f5",
@@ -15,7 +15,7 @@
     "unfocused": "#808080"
   },
   "stackbar": {
-    "height": 40,
+    "height": 5,
     "mode": "OnStack",
     "tabs": {
       "width": 300,
@@ -29,15 +29,15 @@
       "workspaces": [
         {
           "name": "I",
-          "layout": "BSP"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "II",
-          "layout": "VerticalStack"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "III",
-          "layout": "HorizontalStack"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "IV",
@@ -45,15 +45,15 @@
         },
         {
           "name": "V",
-          "layout": "Rows"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "VI",
-          "layout": "Grid"
+          "layout": "UltrawideVerticalStack"
         },
         {
           "name": "VII",
-          "layout": "RightMainVerticalStack"
+          "layout": "UltrawideVerticalStack"
         }
       ]
     }
