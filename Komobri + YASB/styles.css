@@ -5,53 +5,19 @@
 }
 
 .bar {
-  padding: 0 5px;
+  padding-right: 5px;
 }
-
-.container-right .widget {
+.bar .widget{
+  background: #bdae93;
+  border-radius: 5px;
   margin-left: 5px;
+  margin-top: 1px;
 }
-
-.container-right .widget *,
-.ws-btn,
-.active-window-widget .label,
-.komorebi-active-layout .label,
-.custom-widget {
+.bar .widget .label{
   color: #242424;
   font-weight: bold;
 }
-.custom-widget .lable{
-  font-size: 19px;
-}
-.ws-btn {
-  padding: 5px 10px;
-  background: #bdae93;
-  margin: 2px;
-  border-radius: 5px;
-}
-
-.ws-btn.populated{
-  background: #fbf1c7;
-}
-
-.ws-btn.active {
-  background: #fbf1c7;
-  height: 32px;
-  border-bottom: 1px solid #242424;
-}
-
-.custom-widget,
-.wifi-widget .label,
-.active-window-widget .label,
-.komorebi-workspaces-container {
-  background: #bdae93;
-  border-radius: 5px;
-}
-
-.custom-widget:hover,
-.wifi-widget .label:hover,
-.active-window-widget .label:hover,
-.ws-btn:hover {
+.bar .widget:hover{
   background: #fbf1c7;
 }
 
@@ -60,64 +26,61 @@
   border-radius: 5px;
 }
 
-.cpu-widget .label,
+
+
+
+
+
+.ws-btn:hover {
+  background: #fbf1c7;
+}
+.ws-btn {
+  padding: 5px 10px;
+  background: #bdae93;
+  margin: 2px;
+  border-radius: 5px;
+  color: #242424;
+  font-weight: bold;
+}
+.ws-btn.populated{
+  background: #fbf1c7;
+}
+.ws-btn.active {
+  background: #fbf1c7;
+  height: 32px;
+  border-bottom: 1px solid #242424;
+}
+
+
+
+.active-window-widget .label {
+  padding: -5px 7px 0 7px !important;
+}
+
+
 .battery-widget .label.status-full,
 .battery-widget .label.status-charging {
-  background: #30ac03;
+  color: #5f924d;
 }
-
 .battery-widget .label.status-critical {
-  background: #fb4934;
+  color: #d15142;
 }
-
 .battery-widget .label.status-low {
-  background: #fe8019;
+  color: #df8a45;
 }
-
 .battery-widget .label.status-medium {
-  background: #fabd2f;
+  color: #e2b345;
 }
-
 .battery-widget .label.status-high {
-  background: #b8bb26;
-}
-
-.battery-widget,
-.memory-widget {
-  margin: 0;
+  color: #b7b85a;
 }
 
 .memory-widget .label.status-low {
-  background: #689d6a;
+  color: #5f924d;
 }
-
 .memory-widget .label.status-medium {
-  background: #fe8019;
+  color: #df8a45;
 }
-
 .memory-widget .label.status-high {
-  background: #cc241d;
-}
-
-.active-window-widget .label {
-  padding: -5px 7px 0 7px;
-}
-.media-widget .thumbnail,
-.media-widget .label,
-.media-widget .media-btn {
-  margin: 0 5px;
-}
-
-.media-btn {
-  padding: 0;
-  background: transparent;
-  font-size: 12px;
-}
-
-.media-btn:hover {
-  color: cyan;
-}
-
-.media-btn.shuffle.active {
-  color: cyan;
+  color: #d15142;
 }
