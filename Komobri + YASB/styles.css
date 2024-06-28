@@ -28,8 +28,29 @@
 
 
 
+.media-widget .thumbnail{
 
+}
+.media-widget .label{
 
+}
+.media-btn {
+  color: #242424;
+  padding-right: 12px;
+  font-weight: bold;
+}
+
+.media-btn {
+  background: transparent;
+}
+
+.media-btn:hover {
+  color: #656766;
+}
+
+.media-btn.shuffle.active {
+  
+}
 
 
 .ws-btn:hover {
@@ -53,12 +74,6 @@
 }
 
 
-
-.active-window-widget .label {
-  padding: -5px 7px 0 7px !important;
-}
-
-
 .battery-widget .label.status-full,
 .battery-widget .label.status-charging {
   color: #5f924d;
@@ -76,12 +91,16 @@
   color: #b7b85a;
 }
 
-.memory-widget .label.status-low {
-  color: #5f924d;
+
+.dropdown-button {
+  color: #242424;
+  width: 30px;
+  border-radius: 5px;
+
 }
-.memory-widget .label.status-medium {
-  color: #df8a45;
+.dropdown-button::menu-indicator {
+  height: 0;
+  width: 5px;
 }
-.memory-widget .label.status-high {
-  color: #d15142;
-}
+
+
